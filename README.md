@@ -39,7 +39,7 @@ notion: https://wooyeol.notion.site/d4e248357172424ebd85b5ec7a624514
 
 1. repository를 `fork` 후, `clone`합니다. (초기 1회만) / 새로운 주차 폴더가 생겼을 경우 clone이 아닌 `pull` 또는 `fetch`을 진행합니다.
 2. fork한 저장소의 각 주차에 해당되는 과제 폴더에 소스 코드를 `add`, `commit` 후 `push` 합니다. 파일명은 `문제번호_언어_이름`으로 합니다. ex) `14888_cpp_김태현`
-3. PR을 보낸 후, code review를 기다립니다. PR 제목은 `[이름] O주차 과제 제출`로 합니다. ex) `[케이] 2주차 과제 제출`, `[케이]2주차 과제 제출`
+3. PR을 보낸 후, code review를 기다립니다. PR 제목은 `[이름] O일차 과제 제출 (문제 번호)`로 합니다. ex) `[케이] 2일차 과제 제출 (문제 번호)`, `[케이]O일차 과제 제출 (문제 번호)`
 4. code Reviewer는 **모두** 진행합니다
 5. `changes requested`일 경우 피드백 반영 후 2, 3번을 반복합니다.
 6. `merged`일 경우, 다른 과제를 진행합니다.
