@@ -25,5 +25,4 @@ while cur_num <= N:
         side.appendleft(snack_line.popleft())
     else:
         break
-print(cur_num)
 print('Sad') if cur_num <= N else print('Nice')
