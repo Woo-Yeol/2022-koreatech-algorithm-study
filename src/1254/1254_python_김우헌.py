@@ -9,7 +9,6 @@ import sys
 input = sys.stdin.readline
 S = input().rstrip()
 result = len(S)
-init_length = len(S)
 
 while True:
     if result % 2 == 0:
