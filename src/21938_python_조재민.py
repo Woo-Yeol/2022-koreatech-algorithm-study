@@ -1,12 +1,6 @@
 # 영상처리
 # https://www.acmicpc.net/problem/21938
 
-1. 처음에 문제를 풀 때 dfs와 bfs를 생각하지 못하고 무작정 풀다가 계속 실패했습니다 -> dfs 적용
-2. numpy를 활용해서 zero padding을 간단하게 하려다가 백준에서는 numpy를 못쓰는 걸 알게됐습니다 -> 손수 zero padding함
-3. dfs를 적용했지만 재귀가 많아지면서 Recursion ERROR가 떴습니다 -> sys.setrecursionlimit(10**9) 선언
-4. 재귀가 많아지다보니 시간이 오래걸려 비효율적인 코드가 작성됐습니다 -> bfs로 변경해야하는데 귀찮아서 안함
-5. 억까 그 자체
-
 import sys
 input = sys.stdin.readline
 sys.setrecursionlimit(10**9) #Recursion ERROR 방지용, 재귀가 많아지면 에러 뜸
